@@ -1,26 +1,44 @@
+
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    background-size: cover;
-    
+    -o-background-size: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-h6 {
+
+h1,{
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #FFFFFF
 }
+h3{
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #44562A
 
+}
+h2
+{
+    text-transform: lowercase;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #44562A
+
+}
 p {
-    font-size: 1.25em;
-    line-height: 1.6;
+    font-size: 3em;
+    text-transform: uppercase;
     color: #000;
+    letter-spacing: 3px;
+    font-family: 'Indie Flower', cursive;
 }
 
 hr {
@@ -28,13 +46,12 @@ hr {
     border-color: #999999;
 }
 
-.blog {text-transform: lowercase;}
-.brand,
+.jon,
 .address-bar {
     display: none;
 }
 
-.navbar-header {
+.navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
@@ -85,35 +102,27 @@ hr {
 }
 
 
-}
-
-.img-left {
-    float: none;
-    margin: 0 auto 0;
-}
 
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
-footer p {
-    margin: 0;
-    padding: 50px 0;
-}
+
 
 @media screen and (min-width:768px) {
-    .brand {
+    .jon {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
+        font-family: 'Pacifico', cursive;
+        font-size: 7em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #44562A;
+        letter-spacing: 9px;
     }
 
     .top-divider {
@@ -121,8 +130,9 @@ footer p {
     }
 
     .img-left {
-        float: left;
+        margin-left: 35px;
         margin-right: 25px;
+        margin-top: 25px;
     }
 
     .address-bar {
@@ -157,7 +167,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 20px;
     }
 
     .navbar-nav>li>a {
@@ -180,18 +190,16 @@ footer p {
         clear: both;
     }
 }
+.col-lg-12 {
+    text-align: center;
 
-#product-detail .carousel-inner{
-    height: 500px;
 }
 
-#product-detail .carousel-inner>.active{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-#product-detail .carousel-inner>.next,
-#product-detail .carousel-inner>.prev{
-    top: 50%;
-    transform: translateY(-50%);
-}
+.col-md-4 {
+    text-align: center;
+    border: none; 
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    opacity: 0.8;
+    }
+
